@@ -4,18 +4,49 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial scale =1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Responsive and Queries</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="error.css">
+
 </head>
 
 <body>
-<div class ="container">
-    <div>
-        <h2>Learn to code by watching others</h2>
-        <p>See how experienced developers solve problems in real-time.</p>
-        <p>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
-    </div>
-</div>
+  <img src = "bg-intro-desktop.png">
+  <main>
+  <div class = "a">
+    <h2>Learn to code by watching others</h2>
+    <p>See how experienced developers solve problems in real-time.</p>
+    <p>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+  </div>   
+  <div class ="container">
+    <p class ="b" >Try it free for 7 days then $20/mo. thereafter</p>
+      <div class = " fill">
+        <form action = "">
+          <div class ="c">
+            <input type ="text" id = "First_Name" name ="Fname" Placeholder ="First Name" data-error="First Name can not be empty" required>
+          </div>
+          <div class ="d">
+            <input type ="text" id = "Last_Name" name ="Lname" Placeholder ="Last Name" data-error-2="First Name can not be empty" required>
+          </div>
+          <div class ="e">
+            <input type ="email" id = "email" name ="Email" Placeholder ="Email Address" data-error-3="First Name can not be empty" required>
+          </div>
+          <div class ="f">
+            <input type = "password" id ="Password" name = "Pword" Placeholder ="Password" data-error-4="First Name can not be empty" required>
+          </div>
+          <button type ="button" id = butt1>CLAIM YOUR FREE TRAIL</button>
+          <h5>By clicking the button you are agreeing to our Terms and Services</h5>
+        </form>
+      </div>
+  </div>
+  </main>
+  <footer>
+    <p> Copyright Zuriboard &copy; 2022, Coding Journey</p>
+  </footer>
 </body>
 
 </html>

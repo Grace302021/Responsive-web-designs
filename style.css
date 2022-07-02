@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+body{
+    background-color:hsl(0, 100%, 74%) ;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-image: url('images/bg-intro-desktop.png');
+    background-repeat:  no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+
+@media screen and (max-width:375px){
+    body {
+        background-color:hsl(0, 100%, 74%) ;
+        background-image: url('images/bg-intro-desktop.png');
+        background-repeat:  no-repeat center fixed;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        
+    }         
+}
+
+main{
+    display: grid;
+    text-align:center;
+    grid-template-areas: "a b" "c d" "e f";
+    margin:0 auto;
+    position: relative;
+    bottom:600px;
+    overflow:auto;
+    align-items: center;
+    padding:30px 20px;
+}
+
+h2{
+    font-weight:700 ;
+}
+
+.a {
+    color: white;
+    position: relative;
+    padding: 20px;
+    margin:30px;
+    text-align:justify;
+    top:120px;
+    font-weight: 700;
+    font-family:'Poppins', sans-serif;
+    
+    
+    }
+.a p{ 
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    justify-content:
+    
+}
+
+.b {
+    
+    height:47px;
+    width: 400px;
+    background-color:hsl(248, 32%, 49%);
+    border-radius: 0.1cm;
+    position:relative;
+    bottom:30px;
+    padding-top: 12px;
+    margin:30px;
+    left: 40px;
+    color: white;
+    text-align:center;
+
+}
+
+  
+.fill{
+   background-color: white;
+   border-radius:0.2cm;
+   margin:70px;
+   position:relative;
+   height:400px;
+   bottom:80px;
+   width:400px;
+
+}
+
+#butt1{
+    background-color:hsl(246, 25%, 77%);
+    text-align:center;
+
+}
+
+.c{
+    
+    padding-top:100px;
+    position: relative;
+    bottom:80px;
+    text-align:center;
+    height:100px;
+    color:black;
+    
+}
+
+.d{
+   
+    height:20px;
+    position: relative;
+    bottom:60px;
+    text-align:center;
+    color:black;
+    
+    
+}
+.e{
+    height:20px;
+    position: relative;
+    bottom:40px;
+    text-align:center;
+    color:black;
+    
+    
+}
+.f{
+   
+    height:20px;
+    position: relative;
+    bottom:20px;
+    text-align:center;
+    color:black;
+    
+}
+
+#First_Name{
+    width: 290px;
+    height:29px;
+    border-radius: 5px;
+    border-color: hsl(0, 100%, 74%) ;
+  }
+
+#Last_Name{
+    width: 290px;
+    height:29px;
+    border-radius: 5px;
+    border-color: hsl(0, 100%, 74%) ;
+  }
+
+#email{
+    width: 290px;
+    height:29px;
+    border-radius: 5px;
+    border-color: hsl(0, 100%, 74%) ;
+  }
+
+#Password{
+    width: 290px;
+    height:29px;
+    border-radius: 5px;
+    border-color: hsl(0, 100%, 74%) ;
+  }
+
